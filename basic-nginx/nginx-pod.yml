@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: basic-nginx
+  lables:
+    app: ngninx
+    ref: stable
+
+  spec:
+    containers:
+      - name: basic-nginx
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+
+# kubectl create -f nginx-pod.yml --save-config

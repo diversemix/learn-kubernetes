@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: basic-nginx
+  labels:
+    app: ngninx
+    ref: stable
+
+spec:
+  containers:
+    - name: basic-nginx
+      image: nginx:alpine
+      ports:
+      - containerPort: 80
+
