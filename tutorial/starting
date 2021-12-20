@@ -1,0 +1,12 @@
+
+Before going any further, let's make sure everything is installed and configured
+correctly. You'll need the following, so if you don't have them, ctrl-c and
+install them (see README.md)
+
+ - docker (as minikube will use this as a driver,
+        see https://minikube.sigs.k8s.io/docs/drivers/)
+
+ - minikube (see https://minikube.sigs.k8s.io/docs/start/)
+
+ - kubectl (see https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+

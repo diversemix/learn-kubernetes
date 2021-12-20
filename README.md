@@ -1,5 +1,8 @@
 # Learn Terraform
 
+## Useful Resources
+- https://www.youtube.com/watch?v=E2pP1MOfo3g
+
 ## Preamble
 
 - Install minikube as per the instructions online.
@@ -18,6 +21,11 @@ minikube start
 
 Another thing you may want is bash auto-completion, see https://kubernetes.io/docs/tasks/tools/included/optional-kubectl-configs-bash-linux/
 
+## Checking status
+
+```
+minikube status
+```
 ## First steps
 
 Reduce typing use `alias k=kubectl`
