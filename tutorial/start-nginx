@@ -1,0 +1,4 @@
+
+OK, now everything is up and running let's create our first pod. This will be
+a simple nginx pod, this is very simply described in yaml:
+
